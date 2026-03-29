@@ -114,6 +114,17 @@ a {
   color: var(--clr-off-black);
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media (min-width: 1200px) {
   .container {
     margin-top: 0;
